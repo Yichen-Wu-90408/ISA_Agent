@@ -14,9 +14,7 @@
 ---
 
 ## SECTION 2 : EXECUTIVE SUMMARY 
-Due to the Internet has the characteristics of open information exchange, bidirectionality of information transmission, and extensive information coverage, the amount of information in the network expands and increases exponentially, and the problem of information overload and information trek on the network is becoming more and more serious.
-
-Solving these problems, the key is to transform the Internet from passively accepting the requests of viewers to actively perceiving the information needs of viewers, and to realize the active information service of the network system to the viewers. In order to provide people with satisfactory information and services, the recommendation technology has emerged as the times require. 
+This robot is mainly to obtain the fundraising data of each blockchain project on the Icodrops website through the crawler, and then integrate the useful data through data analysis, process and extract the key information that is helpful for investment, thereby greatly saving researchers’ time in the digital currency industry, who used to spend a lot of time writing reports every day to assist in investment decisions.
 
 
 ---
