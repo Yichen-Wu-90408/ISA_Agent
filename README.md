@@ -55,10 +55,13 @@ Solving these problems, the key is to transform the Internet from passively acce
 > 
 ### [ 2 ] To run our multi agent system:
 > **(1) Run “Git clone https://github.com/Yichen-Wu-90408/ISA_Agent.git” to download the project and unzip it, then change the directory to the root of our project folder.
+> 
 > **(2) Run the command “python crwaler_agent.py” to start the crawler and upload the data to the database (it will link to our established database). 
 Library requirements: selenium, bs4, pymysql, requests, lxml, cfscrape.
 You can set it to run regularly, e.g., once an hour.
+>
 > **(3) Run the command “python email.agent.py”. It will start the “pdf_agent.py” to generate an industry report based on the crawler data and the latex template, then the “email_agent.py” would send the pdf file to users through email.
+> 
 
 
 ## SECTION 6 : PROJECT REPORT 
