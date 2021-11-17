@@ -31,7 +31,7 @@ Solving these problems, the key is to transform the Internet from passively acce
 ---
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
-<img src="P1.png"
+<img src="P2.png"
      style="float: left; margin-right: 0px;" />
 
 `Refer to project report at Github Folder: video` 
