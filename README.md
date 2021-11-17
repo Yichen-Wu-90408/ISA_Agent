@@ -1,4 +1,4 @@
-﻿### [ Practice Module ] IRS-PM-2021-09-01-ISY5001-GRP-GGWP team-Movie Recommendation System
+﻿### [ Practice Module ] ISA-PM-IPA-2021-09-01-ISY5005-GRP-AgentSG-Multi_Agent_System
 
 ---
 
