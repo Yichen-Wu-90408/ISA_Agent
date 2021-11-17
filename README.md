@@ -25,10 +25,10 @@ Solving these problems, the key is to transform the Internet from passively acce
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Ni Yongxin(leader) | A0231559B | 1. Web UI designer 2. Model designer | e0703576@u.nus.edu |
-| Peng Junhao | A0231329L | 1. Database designer  2. Model designer | zengzijing1@163.com |
-| Wu Yichen(leader) | A0231544M | 1. Web UI designer 2. Model designer | e0703576@u.nus.edu |
-| Zeng Zijing | A0231548E | 1. Database designer  2. Model designer | zengzijing1@163.com |
+| Ni Yongxin(leader) | A0231559B | crawler agent | e0703591@u.nus.edu |
+| Peng Junhao | A0231329L | PDF agent | e0703361@u.nus.edu |
+| Wu Yichen | A0231544M | excel agent | e0703576@u.nus.edu |
+| Zeng Zijing | A0231548E | email agent | zengzijing1@163.com |
 
 ---
 
