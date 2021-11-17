@@ -7,7 +7,6 @@
 ---
 
 ## SECTION 1 : Movie Recommendation System
-## Singapore Housing & Deveoplment Board - BTO Recommender System
 <img src="Miscellaneous/P.png"
      style="float: left; margin-right: 0px;" />
 
@@ -35,9 +34,8 @@ Solving these problems, the key is to transform the Internet from passively acce
 <img src="Miscellaneous/2.png"
      style="float: left; margin-right: 0px;" />
 
+`Refer to project report at Github Folder: video` 
 
-
-Note: Refer to project report at Github Folder: Video
 
 ---
 
@@ -49,32 +47,18 @@ Note: Refer to project report at Github Folder: Video
 >
 > **(1) Python 3.6+**
 >
-> **(2) Django 1.11**
+> **Library requirements: smtplib, email, matplotlib.
 >
-> **(3) MySQL 5.6**
-
-### [ 2 ] Build Database:
-> **(1) Create a database in MySQL and give it a name, such as `MovieData`, and create a table `moviegenre3` in this database:**
->
-> #### CREATE TABLE moviegenre3(imdbId INT NOT NULL PRIMARY KEY,title varchar(300),poster varchar(600));
->
-> **(2)Import the table with the same name in the folder ‘data’ into the database table `moviegenre3` and run the command**:
->
-> ####  **python manage.py migrate**
->
-> **to build all related tables, and then import the ‘users_resulttable’ data in the folder ‘data’ into the table with the same name in the database.**
-
-### [ 3 ] Operating System:
-
-> **In order to ensure the stable operation of the system, the following dependencies are all used stable versions.**
->
-> **(1) Run the command:**
->
-> #### python manage.py runserver
->
-> **(2)Go to URL using web browser http://127.0.0.1:8000/ to view the registration, login and scoring pages.**
-
----
+> **Environment requirement: install texlive locally and add the environment variables to the path
+> 
+> **Receive emails: the receivers are set in row 32 of “email_agent.py”, you can change the value to your own email, e.g., recipientAddrs = ‘email1;email2;email3’.
+> 
+### [ 2 ] To run our multi agent system:
+> **(1) Run “Git clone https://github.com/Yichen-Wu-90408/ISA_Agent.git” to download the project and unzip it, then change the directory to the root of our project folder.
+> **(2) Run the command “python crwaler_agent.py” to start the crawler and upload the data to the database (it will link to our established database). 
+Library requirements: selenium, bs4, pymysql, requests, lxml, cfscrape.
+You can set it to run regularly, e.g., once an hour.
+> **(3) Run the command “python email.agent.py”. It will start the “pdf_agent.py” to generate an industry report based on the crawler data and the latex template, then the “email_agent.py” would send the pdf file to users through email.
 
 
 ## SECTION 6 : PROJECT REPORT 
